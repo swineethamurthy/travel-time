@@ -21,6 +21,10 @@ body {
   color: white;
   padding-top: 10px;
 }
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
 .nav li {
   display: inline-block;
   margin: 0 10px;
