@@ -1,0 +1,165 @@
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+/*
+  ========================================
+  Home 
+  ========================================
+*/
+.home {
+  background-image: url(/assets/images/bg1.png);
+}
+.nav {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  padding-top: 10px;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.title-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 144px;
+  color: white;
+}
+.home-content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 20px;
+  line-height: 36px;
+  width: 42%;
+  text-align: center;
+  color: white;
+}
+.btn-container {
+  padding-top: 20%;
+  margin-bottom: 20px;
+}
+.btn {
+  text-align: center;
+  background-color: chartreuse;
+  border-radius: 8px;
+  font-size: x-large;
+  width: 191px;
+  height: 60px;
+}
+/*
+  ========================================
+  Tours 
+  ========================================
+*/
+.tours {
+  background-image: url(/assets/images/bg2.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.tour-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  color: white;
+}
+.tour-nav {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+.tour-dtls {
+  background: rgba(88, 88, 88, 0.5);
+  margin: 0 10px 20px 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.tour-dtls h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 48px;
+  color: white;
+}
+
+.tour-dtls p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+  text-align: justify;
+}
+.read-more-container {
+  text-align: right;
+}
+.read-more {
+  align-self: right;
+  background: rgba(78, 78, 78, 0.45);
+  border-radius: 8px;
+  color: white;
+}
+/*
+  ========================================
+  About Us 
+  ========================================
+*/
+.about-us {
+  background-image: url(/assets/images/bg3.png);
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-us-content {
+  margin: 10%;
+}
+
+.about-us h1 {
+  align-self: flex-start;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 72px;
+  color: white;
+}
+
+.about-us p {
+  align-self: center;
+  text-align: justify;
+  padding-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 48px;
+  color: white;
+}
