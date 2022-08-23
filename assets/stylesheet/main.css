@@ -1,6 +1,9 @@
 body {
-  background-color: grey;
   margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  color: white;
+  background-size: cover;
 }
 
 /*
@@ -13,12 +16,9 @@ body {
 }
 .nav {
   text-align: center;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 30px;
-  color: white;
   padding-top: 10px;
 }
 .nav ul {
@@ -40,32 +40,28 @@ body {
 }
 
 .title-text {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 144px;
-  color: white;
 }
 .home-content p {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 275;
   font-size: 20px;
   line-height: 36px;
   width: 42%;
   text-align: center;
-  color: white;
 }
 .btn-container {
-  padding-top: 20%;
-  margin-bottom: 20px;
+  padding-top: 15%;
+  margin-bottom: 20%;
 }
 .btn {
   text-align: center;
-  background-color: chartreuse;
+  background-color: #00b43d;
   border-radius: 8px;
-  font-size: x-large;
+  font-size: medium;
+  color: white;
+  text-transform: uppercase;
   width: 191px;
   height: 60px;
 }
@@ -83,12 +79,9 @@ body {
 }
 
 .tour-text {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 60px;
-  color: white;
 }
 .tour-nav {
   display: flex;
@@ -103,21 +96,16 @@ body {
 }
 
 .tour-dtls h1 {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 25px;
   line-height: 48px;
-  color: white;
 }
 
 .tour-dtls p {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 200;
   font-size: 15px;
   line-height: 24px;
-  color: white;
+
   text-align: justify;
 }
 .read-more-container {
@@ -148,22 +136,17 @@ body {
 
 .about-us h1 {
   align-self: flex-start;
-  font-family: "Poppins";
-  font-style: normal;
+
   font-weight: 300;
   font-size: 40px;
   line-height: 72px;
-  color: white;
 }
 
 .about-us p {
   align-self: center;
   text-align: justify;
   padding-top: 10px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 48px;
-  color: white;
 }
